@@ -1,0 +1,114 @@
+sudo apt install git
+git --version
+git version
+git clone git@github.com:marianosiga/TP_AySO.git
+ls
+cp README TP_AySO
+cp README TP_AySO/
+cd TP_AySO/
+ls -la
+git status
+git add README
+git status
+cd
+ls
+cd repogit
+ls
+cd
+git commit -m "comentario"
+cd TP_AySO
+git status
+git commit -m "readme"
+git push origin main
+git config --global user-email "marianosibellog@gmail.com"
+git config --global user.email "marianosibellog@gmail.com"
+git config --global user.name "marianosiga"
+git push origin main
+ls -la
+git status
+git add README
+git status
+git commit -m "nuevo archivo"
+git push origin main
+cd
+pwd
+git clone git@github.com:marianosiga/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cd
+cd repogit
+ls
+cd
+cd TP_AySO
+cat /etc/os-release
+man grep
+grep -l HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -l Home_url /etc/os-release
+grep -l Home_url /etc/os-release > datos_url.txt
+cd
+cd TP_AySO
+ls
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.email "marianosibellog@gmail.com"
+git config --global user.name "marianosiga"
+git commit -m "ADD: Agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuarios.txt
+git add datos_usuario.txt
+git comit -m "feat: Añadiendo informacion de cpu"
+git commit -m "feat: Añadiendo informacion de cpu"
+ls
+cat << fin >> README
+Alumno: Mariano Sibello
+Division: 116
+Turno: Mañana
+fin
+
+git add README
+git add README.md datos_usuarios.txt
+git add README datos_usuarios.txt
+git add README
+cd
+cd TP_AySO
+ls
+git add README datos_usuario.txt
+git status
+git commit -m "ADD: añadiendo readme y datos de usuario"
+git push
+cd
+pwd
+cd /
+cd
+sudo mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+ls
+cd materia1
+ls
+cd
+cd materia2
+ls
+cd
+cat << fin >> script_dir.sh
+#!/bin/bash
+sudo mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+fin
+
+sudo chmod 777 script_dir.sh
+ls
+git add .
+cd TP_AySO
+cat << fin >> script_dir.sh
+#!/bin/bash
+sudo mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+fin
+
+git status
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
